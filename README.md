@@ -41,7 +41,7 @@
 
 ### `—◉ ⚙️ AJUSTES ⚙️`
 - CLONAR EL REPOSITORIO [Aqui](https://github.com/AngelPeruFachero/GokuBot_MD/fork)
-- CAMBIAR NÚMERO DEL OWNER [Aqui](https://github.com/AngelPeruFachero/GokuBot_MD/blob/config.js)
+- CAMBIAR NÚMERO DEL OWNER [Aqui](https://github.com/AngelPeruFachero/GokuBot_MD/blob/master/config.js)
   
  
 
