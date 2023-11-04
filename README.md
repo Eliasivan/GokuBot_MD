@@ -107,8 +107,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 <a href="http://wa.me/51982110760" target="blank"><img src="https://img.shields.io/badge/AngelPeruFachero_CREADOR-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 
-<a href="http://wa.me/51940617554" target="blank"><img src="https://img.shields.io/badge/GATITO_COLAB.4-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-<a href="http://wa.me/593991398786" target="blank"><img src="https://img.shields.io/badge/CARLOSTWT_COLAB.5-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+
 
 ## `COLABORADORES DEL BOT` 
 
