@@ -6,7 +6,7 @@
 
 >🌼𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗲𝘀: 𝙰𝚇𝙴𝙻 
 
-## `🐺𝕷𝖔𝖇𝖔-𝕭𝖔𝖙-𝕸𝕯🐺` 
+## `` 
 <p align="center">
 <img src="https://storage/emulated/0/Pictures/Screenshots/IMG_20231104_063530.jpg" alt="GokuBot-MD" width="900"/>
 </p>
