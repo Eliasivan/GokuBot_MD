@@ -8,5 +8,4 @@
 
 ## `` 
 <p align="center">
-<img src="https://images.app.goo.gl/8Qzro8acWeSgRPEP9.jpg" alt="GokuBot-MD" width="900"/>
-</p>
+<img src="https://images.app.goo.gl/8Qzro8acWeSgRPEP9.jpg"
