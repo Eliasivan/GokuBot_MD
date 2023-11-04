@@ -2,6 +2,6 @@ package goku
 
 import "angel"
 
-func lobo() {
+func goku() {
     angel.Println("Basura eliminada!")
 }
