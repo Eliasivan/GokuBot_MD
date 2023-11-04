@@ -40,7 +40,7 @@
 - TIENES IDEAS DE PLUGINS O QUIERES OBTENER MAS PLUGINS? DA CLICK EN [https://github.com/theh2so4/Goku-Plugins](https://github.com/theh2so4/Goku-Plugins)
 
 ### `—◉ ⚙️ AJUSTES ⚙️`
-- CLONAR EL REPOSITORIO [Aqui](https://github.com/AngelPeruFachero/Goku_Bot-MD/fork)
+- CLONAR EL REPOSITORIO [Aqui](https://github.com/AngelPeruFachero/GokuBot_MD/fork)
 - CAMBIAR NÚMERO DEL OWNER [Aqui](https://github.com/AngelPeruFachero/GokuBot_MD/blob/master/config.js)
   
  
@@ -60,7 +60,7 @@ pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
 ```
 
 ```bash
-git clone https://github.com/AngelPeruFachero/GokuBot-MD.&& cd Goku-Bot-MD
+git clone https://github.com/AngelPeruFachero/GokuBot_MD.&& cd GokuBot_MD
 ```
 
 ```bash
