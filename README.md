@@ -8,5 +8,5 @@
 
 ## `` 
 <p align="center">
-<img src="https://www.google.com/search?client=ms-android-tinno&sca_esv=579161870&biw=377&bih=548&tbm=isch&sxsrf=AM9HkKn_wYmpqctb2-PUyZumKgJgjdBLeA%3A1699020858275&sa=1&q=im%C3%A1genes+de+goku+medio+cuerpo&oq=im%C3%A1genes+de+goku+medio+cuerpo&aqs=mobile-gws-lite..0l1#.jpg" alt="GokuBot-MD" width="900"/>
+<img src="https://images.app.goo.gl/8Qzro8acWeSgRPEP9.jpg" alt="GokuBot-MD" width="900"/>
 </p>
