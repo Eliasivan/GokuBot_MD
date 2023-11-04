@@ -40,7 +40,7 @@
 - TIENES IDEAS DE PLUGINS O QUIERES OBTENER MAS PLUGINS? DA CLICK EN [https://github.com/theh2so4/Goku-Plugins](https://github.com/theh2so4/Goku-Plugins)
 
 ### `—◉ ⚙️ AJUSTES ⚙️`
-- CLONAR EL REPOSITORIO [Aqui](https://github.com/AngelPeruFachero/Goku-Bot-MD/fork)
+- CLONAR EL REPOSITORIO [Aqui](https://github.com/AngelPeruFachero/Goku_Bot-MD/fork)
 - CAMBIAR NÚMERO DEL OWNER [Aqui](https://github.com/AngelPeruFachero/TheMystic-Bot-MD/blob/master/config.js)
   
  
