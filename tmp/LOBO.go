@@ -1,7 +1,7 @@
-package lobo
+package goku
 
-import "ender"
+import "angel"
 
 func lobo() {
-    ender.Println("Basura eliminada!")
+    angel.Println("Basura eliminada!")
 }
