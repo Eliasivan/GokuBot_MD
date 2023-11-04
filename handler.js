@@ -1182,7 +1182,7 @@ const messageText = `
 —◉ *Aviso ${messageNumber}/3 (Total: 3)*
 —◉ ${user.bannedReason ? `\n*Motivo:* ${user.bannedReason}` : '*Motivo:* Sin especificar'}
 —◉ *Si consideras que esto es un error y cuentas con pruebas, puedes comunicarte con el propietario del Bot para apelar la suspensión.*
-—◉ *Contacto para apelaciones:* wa.me/50558124470
+—◉ *Contacto para apelaciones:* wa.me/51982110760
 ╚═════════════════════════╝
                `.trim();
               m.reply(messageText);
@@ -1502,8 +1502,8 @@ export async function callUpdate(callUpdate) {
         const callmsg = await this.reply(nk.from, `Hola *@${nk.from.split('@')[0]}*, las ${nk.isVideo ? 'videollamadas' : 'llamadas'} no están permitidas, serás bloqueado.\n-\nSi accidentalmente llamaste póngase en contacto con mi creador para que te desbloquee!`, false, {mentions: [nk.from]});
         // let data = global.owner.filter(([id, isCreator]) => id && isCreator)
         // await this.sendContact(nk.from, data.map(([id, name]) => [id, name]), false, { quoted: callmsg })
-        const vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;𝗘𝗻𝗱𝗲𝗿 𝗚𝗕👑;;;\nFN:𝗘𝗻𝗱𝗲𝗿 𝗚𝗕 👑\nORG:𝗘𝗻𝗱𝗲𝗿 𝗚𝗕 👑\nTITLE:\nitem1.TEL;waid=50576390682+505 7639 0682\nitem1.X-ABLabel:𝗘𝗻𝗱𝗲𝗿 𝗚𝗕👑\nX-WA-BIZ-DESCRIPTION:[❗] ᴄᴏɴᴛᴀᴄᴛᴀ ᴀ ᴇsᴛᴇ ɴᴜᴍ ᴘᴀʀᴀ ᴄᴏsᴀs ɪᴍᴘᴏʀᴛᴀɴᴛᴇs.\nX-WA-BIZ-NAME:𝗘𝗻𝗱𝗲𝗿 𝗚𝗕 👑\nEND:VCARD`;
-        await this.sendMessage(nk.from, {contacts: {displayName: '𝗘𝗻𝗱𝗲𝗿 𝗚𝗕 👑', contacts: [{vcard}]}}, {quoted: callmsg});
+        const vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;𝗔𝗻𝗴𝗲𝗹 𝗢𝗙𝗖👑;;;\nFN:𝗔𝗻𝗴𝗲𝗹 𝗢𝗙𝗖 👑\nORG:𝗔𝗻𝗴𝗲𝗹 𝗢𝗙𝗖 👑\nTITLE:\nitem1.TEL;waid=5198110760\nitem1.X-ABLabel:𝗔𝗻𝗴𝗲𝗹 𝗢𝗙𝗖👑\nX-WA-BIZ-DESCRIPTION:[❗] ᴄᴏɴᴛᴀᴄᴛᴀ ᴀ ᴇsᴛᴇ ɴᴜᴍ ᴘᴀʀᴀ ᴄᴏsᴀs ɪᴍᴘᴏʀᴛᴀɴᴛᴇs.\nX-WA-BIZ-NAME:𝗔𝗻𝗴𝗲𝗹 𝗢𝗙𝗖 👑\nEND:VCARD`;
+        await this.sendMessage(nk.from, {contacts: {displayName: 𝗔𝗻𝗴𝗲𝗹 𝗢𝗙𝗖 👑', contacts: [{vcard}]}}, {quoted: callmsg});
         await this.updateBlockStatus(nk.from, 'block');
       }
     }
@@ -1538,16 +1538,18 @@ let date = d.toLocaleDateString('es', { day: 'numeric', month: 'long', year: 'nu
 
 global.dfail = (type, m, conn) => {
   const msg = {
-    rowner: '[🌹𝗔𝗗𝗩𝗘𝗥𝗧𝗘𝗡𝗖𝗜𝗔🌹] 𝑬𝑺𝑻𝑬 𝑪𝑶𝑴𝑨𝑵𝑫𝑶 𝑬𝑺 𝑺𝑶𝑳𝑶 𝑷𝑨𝑹𝑨 𝑶𝑾𝑵𝑬𝑹𝑺 𝑶 𝑺𝑻𝑨𝑭𝑭 𝑫𝑬 𝑳𝑶𝑩𝑶-𝑩𝑶𝑻-𝑴𝑫',
-    owner: '[🌹𝗔𝗗𝗩𝗘𝗥𝗧𝗘𝗡𝗖𝗜𝗔🌹] 𝑬𝑺𝑻𝑬 𝑪𝑶𝑴𝑨𝑵𝑫𝑶 𝑬𝑺 𝑺𝑶𝑳𝑶 𝑷𝑨𝑹𝑨 𝑶𝑾𝑵𝑬𝑹𝑺 𝑶 𝑺𝑻𝑨𝑭𝑭 𝑫𝑬 𝑳𝑶𝑩𝑶-𝑩𝑶𝑻-𝑴𝑫',
-    mods: '[🌹𝗔𝗗𝗩𝗘𝗥𝗧𝗘𝗡𝗖𝗜𝗔🌹] 𝑬𝑺𝑻𝑬 𝑪𝑶𝑴𝑨𝑵𝑫𝑶 𝑬𝑺 𝑺𝑶𝑳𝑶 𝑷𝑨𝑹𝑨 𝑶𝑾𝑴𝑬𝑹𝑺 𝑶 𝑺𝑻𝑨𝑭𝑭 𝑫𝑬 𝑳𝑶𝑩𝑶-𝑩𝑶𝑻-𝑴𝑫',
-    premium: '[🌹𝗔𝗗𝗩𝗘𝗥𝗧𝗘𝗡𝗖𝗜𝗔🌹] 𝑬𝑺𝑻𝑬 𝑪𝑶𝑴𝑨𝑵𝑫𝑶 𝑬𝑺 𝑷𝑨𝑹𝑨 𝑶𝑾𝑵𝑬𝑹𝑺,𝑺𝑻𝑨𝑭𝑭 𝒀 𝑼𝑺𝑼𝑨𝑹𝑰𝑶𝑺 𝑽𝑰𝑷 𝑫𝑬 𝑳𝑶𝑩𝑶-𝑩𝑶𝑻-𝑴𝑫',
-    group: '[🌹𝗔𝗗𝗩𝗘𝗥𝗧𝗘𝗡𝗖𝗜𝗔🌹] 𝑬𝑳 𝑪𝑶𝑴𝑨𝑵𝑫𝑶 𝑬𝑺 𝑬𝑱𝑬𝑪𝑼𝑻𝑨𝑫𝑶 𝑺𝑶𝑳𝑶 𝑬𝑺 𝑼𝑺𝑨𝑩𝑳𝑬 𝑬𝑵 𝑮𝑹𝑼𝑷𝑶𝑺',
-    private: '[🌹𝗔𝗗𝗩𝗘𝗥𝗧𝗘𝗡𝗖𝗜𝗔🌹] 𝑼𝑺𝑨 𝑬𝑺𝑻𝑬 𝑪𝑶𝑴𝑨𝑵𝑫𝑶 𝑨𝑳 𝑪𝑯𝑨𝑻 𝑷𝑹𝑰𝑽𝑨𝑻𝑬 𝑫𝑬 𝑳𝑶𝑩𝑶-𝑩𝑶𝑻-𝑴𝑫',
-    admin: '[🌹𝗔𝗗𝗩𝗘𝗥𝗧𝗘𝗡𝗖𝗜𝗔🌹] 𝑳𝑶𝑺𝑰𝑬𝑵𝑻𝑶 𝑬𝑺𝑻𝑬 𝑪𝑶𝑴𝑨𝑵𝑫𝑶 𝑬𝑺 𝑷𝑨𝑹𝑨 𝑨𝑫𝑴𝑰𝑵𝑺 𝑫𝑬𝑳 𝑮𝑹𝑼𝑷𝑶',
-    botAdmin: '[🌹𝗔𝗗𝗩𝗘𝗥𝗧𝗘𝗡𝗖𝗜𝗔🌹] 𝑷𝑨𝑹𝑨 𝑬𝑱𝑬𝑪𝑼𝑻𝑨𝑹 𝑳𝑨 𝑨𝑪𝑪𝑰𝑶𝑵 𝑫𝑬𝑩𝑶 𝑻𝑬𝑵𝑬𝑹 𝑷𝑶𝑫𝑬𝑹 𝑬𝑵 𝑬𝑳 𝑮𝑹𝑼𝑷𝑶',
-    unreg: '[ 🪁𝗢𝗬𝗘!!𝗡𝗢 𝗘𝗦𝗧𝗔𝗦 𝗘𝗡 𝗠𝗜 𝗕𝗔𝗦𝗘 𝗗𝗘 𝗗𝗔𝗧𝗢𝗦🪁 ]\n\n*—◉ 𝙿𝙰𝚁𝙰 𝚄𝚂𝙰𝚁 𝙴𝚂𝚃𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙳𝙴𝙱𝙴𝚂 𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙰𝚁𝚃𝙴, 𝚄𝚂𝙰 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾*\n*➣ #verificar nombre.edad*',
-    restrict: '[🌹𝗔𝗗𝗩𝗘𝗥𝗧𝗘𝗡𝗖𝗜𝗔🌹] 𝑬𝑳 𝑪𝑶𝑴𝑨𝑵𝑫𝑶 𝑬𝑺𝑻𝑨 𝑹𝑬𝑺𝑻𝑹𝑰𝑵𝑮𝑰𝑫𝑶 𝑷𝑶𝑹 𝑳𝑶𝑺 𝑶𝑾𝑵𝑬𝑹𝑺 𝒀 𝑺𝑻𝑨𝑭𝑭 𝑫𝑬 𝑳𝑶𝑩𝑶-𝑩𝑶𝑻-𝑴𝑫',
+    rowner: '[🌹𝗔𝗗𝗩𝗘𝗥𝗧𝗘𝗡𝗖𝗜𝗔🌹] 𝑬𝑺𝑻𝑬 𝑪𝑶𝑴𝑨𝑵𝑫𝑶 𝑬𝑺 𝑺𝑶𝑳𝑶 𝑷𝑨𝑹𝑨 𝑶𝑾𝑵𝑬𝑹𝑺 𝑶 𝑺𝑻𝑨𝑭𝑭 𝑫𝑬 𝑮𝑶𝑲𝑼𝑩𝑶𝑻_𝑴𝑫',
+    owner: '[🌹𝗔𝗗𝗩𝗘𝗥𝗧𝗘𝗡𝗖𝗜𝗔🌹] 𝑬𝑺𝑻𝑬 𝑪𝑶𝑴𝑨𝑵𝑫𝑶 𝑬𝑺 𝑺𝑶𝑳𝑶 𝑷𝑨𝑹𝑨 𝑶𝑾𝑵𝑬𝑹𝑺 𝑶 𝑺𝑻𝑨𝑭𝑭 𝑫𝑬 𝑮𝑶𝑲𝑼𝑩𝑶𝑻_𝑴𝑫',
+    mods: '[🌹𝗔𝗗𝗩𝗘𝗥𝗧𝗘𝗡𝗖𝗜𝗔🌹] 𝑬𝑺𝑻𝑬 𝑪𝑶𝑴𝑨𝑵𝑫𝑶 𝑬𝑺 𝑺𝑶𝑳𝑶 𝑷𝑨𝑹𝑨 𝑶𝑾𝑴𝑬𝑹𝑺 𝑶 𝑺𝑻𝑨𝑭𝑭 𝑫𝑬 𝑮𝑶𝑲𝑼𝑩𝑶𝑻_𝑴𝑫',
+    premium: '[🌹𝗔𝗗𝗩𝗘𝗥𝗧𝗘𝗡𝗖𝗜𝗔🌹] 𝑬𝑺𝑻𝑬 𝑪𝑶𝑴𝑨𝑵𝑫𝑶 𝑬𝑺 𝑷𝑨𝑹𝑨 𝑶𝑾𝑵𝑬𝑹𝑺,𝑺𝑻𝑨𝑭𝑭 𝒀 𝑼𝑺𝑼𝑨𝑹𝑰𝑶𝑺 𝑽𝑰𝑷 𝑫𝑬𝑮𝑶𝑲𝑼𝑩𝑶𝑻_𝑴𝑫',
+    group: '[🌹𝗔𝗗𝗩𝗘𝗥𝗧𝗘𝗡𝗖𝗜𝗔🌹] 𝑬𝑳 𝑪𝑶𝑴𝑨𝑵𝑫𝑶 𝑬𝑺 𝑬𝑱𝑬𝑪𝑼𝑻𝑨𝑫𝑶 𝑺𝑶𝑳𝑶 𝑬𝑺 𝑼𝑺𝑨𝑩𝑳𝑬 𝑬𝑵 𝑮𝑹𝑼𝑷𝑶𝑺 𝒀 𝑬𝑺𝑻𝑬 𝑬𝑺 𝑪𝑯𝑨𝑻 𝑷𝑹𝑰𝑽𝑨𝑫𝑶',
+    private: '[🌹𝗔𝗗𝗩𝗘𝗥𝗧𝗘𝗡𝗖𝗜𝗔🌹] 𝑼𝑺𝑨 𝑬𝑺𝑻𝑬 𝑪𝑶𝑴𝑨𝑵𝑫𝑶 𝑨𝑳 𝑪𝑯𝑨𝑻 𝑷𝑹𝑰𝑽𝑨𝑻𝑬 𝑫𝑬𝑮𝑶𝑲𝑼𝑩𝑶𝑻_𝑴𝑫',
+    admin: '[ Android Download 👉: https://fontboard.page.link/share
+
+iOS Download 👉: https://apps.apple.com/app/id1636254820🌹𝗔𝗗𝗩𝗘𝗥𝗧𝗘𝗡𝗖𝗜𝗔🌹] 𝑳𝑶𝑺𝑰𝑬𝑵𝑻𝑶 𝑬𝑺𝑻𝑬 𝑪𝑶𝑴𝑨𝑵𝑫𝑶 𝑬𝑺 𝑷𝑨𝑹𝑨 𝑨𝑫𝑴𝑰𝑵𝑺 𝑫𝑬𝑳 𝑮𝑹𝑼𝑷𝑶 𝒀 𝑻𝑼 𝑵𝑶 𝑬𝑹𝑬𝑺',
+    botAdmin: '[🌹𝗔𝗗𝗩𝗘𝗥𝗧𝗘𝗡𝗖𝗜𝗔🌹] 𝑷𝑨𝑹𝑨 𝑬𝑱𝑬𝑪𝑼𝑻𝑨𝑹 𝑳𝑨 𝑨𝑪𝑪𝑰𝑶𝑵 𝑫𝑬𝑩𝑶 𝑻𝑬𝑵𝑬𝑹 𝑷𝑶𝑫𝑬𝑹 𝑬𝑵 𝑬𝑳 𝑮𝑹𝑼𝑷𝑶 𝑶𝑺𝑬𝑨 𝑺𝑬𝑹 𝑨𝑫𝑴𝑰𝑵𝒏̃',
+    unreg: '[ 🪁𝗢𝗬𝗘 𝐓𝐔!!𝗡𝗢 𝗘𝗦𝗧𝗔𝗦 𝗘𝗡 𝗠𝗜 𝗕𝗔𝗦𝗘 𝗗𝗘 𝗗𝗔𝗧𝗢𝗦🪁 ]\n\n*—◉ 𝙿𝙰𝚁𝙰 𝚄𝚂𝙰𝚁 𝙴𝚂𝚃𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙳𝙴𝙱𝙴𝚂 𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙰𝚁𝚃𝙴, 𝚄𝚂𝙰 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾*\n*➣ #verificar nombre.edad 𝐞𝐣𝐞𝐦𝐩𝐥𝐨 #verificar Angel-OFC.18*',
+    restrict: '[🌹𝗔𝗗𝗩𝗘𝗥𝗧𝗘𝗡𝗖𝗜𝗔🌹] 𝑬𝑳 𝑪𝑶𝑴𝑨𝑵𝑫𝑶 𝑬𝑺𝑻𝑨 𝑹𝑬𝑺𝑻𝑹𝑰𝑵𝑮𝑰𝑫𝑶 𝑷𝑶𝑹 𝑳𝑶𝑺 𝑶𝑾𝑵𝑬𝑹𝑺 𝒀 𝑺𝑻𝑨𝑭𝑭 𝑫𝑬 𝐆𝐎𝐊𝐔𝑩𝑶𝑻_𝑴𝑫',
   }[type];
   const aa = {quoted: m, userJid: conn.user.jid};
   const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '[ ⚠ ] 𝐀𝐕𝐈𝐒𝐎 - 𝐀𝐋𝐄𝐑𝐓𝐀', body: ' 𝑳𝑶𝑩𝑶-𝑩𝑶𝑻-𝑴𝑫', thumbnail: imagen1, sourceUrl: global.md}}}}, aa);
