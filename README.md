@@ -8,7 +8,7 @@
 
 ## `🐺𝕷𝖔𝖇𝖔-𝕭𝖔𝖙-𝕸𝕯🐺` 
 <p align="center">
-<img src="https://i.ibb.co/wYRhwjt/lobo-bot.jpg" alt="LoboBot-MD" width="900"/>
+<img src="https://i.ibb.co/wYRhwjt/Guku-bot.jpg" alt="GokuBot-MD" width="900"/>
 </p>
 ------------------
 
