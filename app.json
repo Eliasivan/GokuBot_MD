@@ -4,7 +4,7 @@
   "description": "Super WhatsApp bot",
 "repository":"https://github.co/Eliasivan/GokuBot_MD",
   "logo": "WaBot",
-  "success_url": "",
+"success_url":"https://github.com/Eliasivan/GokuBot_MD",
   "keywords": [ 
     "nodejs", 
     "heroku", 
