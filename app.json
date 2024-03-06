@@ -1,10 +1,10 @@
 {
-  "name": "GokuBot_MD",
-  "website": "https://github.com/AngelPeruFachero",
+  "name": "Lobobot2.0_MD",
+  "website": "",
   "description": "Super WhatsApp bot",
-  "repository": "https://github.com/AngelPeruFachero/GokuBot_MD",
+  "repository": "",
   "logo": "WaBot",
-  "success_url": "https://github.com/AngelPeruFachero/GokuBot_MD",
+  "success_url": "",
   "keywords": [ 
     "nodejs", 
     "heroku", 
